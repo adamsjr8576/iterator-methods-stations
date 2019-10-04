@@ -1,11 +1,19 @@
 # .reduce
 
 1. What does `.reduce` do?
-2. Is the original array modified?
+
+ - reduces the array down into a single value and returns that value.
+ 
+2. Is the original array modified? 
+ - No
 3. How many arguments does `.reduce` take?
+ - 2
 4. How many arguments does the _callback function_ take?
+ - 4
 5. Which arguments are required (for both the method and its callback)?
+ - the callback function and within that the accumulator and current value.
 6. Does the callback need a return value? If so, what needs to be returned?
+ - the callback does need a return value and that is the accumulator
 
 
 Given an array of numbers, write a function that returns the product of all the numbers.
